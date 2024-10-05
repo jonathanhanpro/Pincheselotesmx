@@ -15,7 +15,7 @@
 
 </head>
 <body data-spy="scroll" data-target=".navbar" class="has-loading-screen">
-    <div class="ts-page-wrapper" id="page-top">
+    <div class="ts-page-wrapper" id="page-top"> 
 
         <!--*********************************************************************************************************-->
         <!--************ HERO ***************************************************************************************-->
@@ -73,24 +73,47 @@
         <!--************ CONTENT ************************************************************************************-->
         <!--*********************************************************************************************************-->
         <main id="ts-content">
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <section id="what-youll-get" class="ts-block text-center pt-5">
                 <div class="container">
                     <div class="ts-title">
                         <h2>Documental</h2>
                     </div>
-                    </head>
-                    <div class="container">
-                  <body> <div style="display: inline-block;">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CeFnF13kn20?si=T52s9P_OB45zncS2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            </figure> </div>
-                        </div>
-                    </body> 
-                        <span style="color: black;">Agradecimiento especial para "En mi barrio se come chingon" por 
-                            su trabajo documental. </span>
+                </div>
+                <div class="container">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/CeFnF13kn20?si=T52s9P_OB45zncS2" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    <span style="color: black;">
+                        Agradecimiento especial para "En mi barrio se come chingon" por su trabajo documental.
+                    </span>
+                </div>
             </section>
+        </main>
+        
+        <style>
+            .video-container {
+                position: relative;
+                padding-bottom: 56.25%; /* 16:9 aspect ratio */
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+                background: black;
+            }
+            
+            .video-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
 
             <!--END HOW IT WORKS ************************************************************************************-->
             <!--NUMBERS *********************************************************************************************-->
