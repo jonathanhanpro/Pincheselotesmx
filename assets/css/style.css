@@ -2420,3 +2420,14 @@ E. Template Specific Elements
         left: 2.5rem;
     }
 }
+ul.list-inline a {
+    font-size: 1.2rem; /* Ajustar el tamaño de fuente */
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: color 0.3s ease, transform 0.3s ease; /* Efecto de transición */
+}
+
+ul.list-inline a:hover {
+    color: #007bff; /* Color de hover */
+    transform: scale(1.1); /* Efecto de aumento en hover */
+}
