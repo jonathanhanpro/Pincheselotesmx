@@ -88,13 +88,13 @@ body {
     color: #191919;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: .9375rem;
+    font-size: .999rem;
     margin: 0;
     padding: 0;
 }
 
 html {
-    font-size: 80%;
+    font-size: 300%;
 }
 
 h1, .ts-h1 {
@@ -299,7 +299,7 @@ B. Helpers
 }
 
 .ts-font-color__primary {
-    color: #ff6a6a;
+    color: #f8e302;
 }
 
 /*-------------------------------------------
@@ -2428,6 +2428,6 @@ ul.list-inline a {
 }
 
 ul.list-inline a:hover {
-    color: #007bff; /* Color de hover */
+    color: #ffffff; /* Color de hover */
     transform: scale(1.1); /* Efecto de aumento en hover */
 }
