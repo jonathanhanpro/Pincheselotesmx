@@ -88,13 +88,13 @@ body {
     color: #191919;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: .999rem;
+    font-size: .550rem;
     margin: 0;
     padding: 0;
 }
 
 html {
-    font-size: 300%;
+    font-size: 100%;
 }
 
 h1, .ts-h1 {
