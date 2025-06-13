@@ -104,13 +104,13 @@ h1, .ts-h1 {
 
 h2, .ts-h2 {
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 h3, .ts-h3 {
     font-weight: 600;
     font-size: 2.25rem;
-    margin-bottom: 1.5625rem;
+    margin-bottom: 2.5625rem;
 }
 
 h4, .ts-h4 {
@@ -119,7 +119,7 @@ h4, .ts-h4 {
 }
 
 h5, .ts-h5 {
-    font-size: 1rem;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
